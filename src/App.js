@@ -21,21 +21,7 @@ export default class App extends Component {
             <Col xs={12} md={2}>
               <Book img={this.state.img} title={this.state.title} author={this.state.author} />
             </Col>
-            <Col xs={12} md={2}>
-              <Book img={this.state.img} title={this.state.title} author={this.state.author} />
-            </Col>
-            <Col xs={12} md={2}>
-              <Book img={this.state.img} title={this.state.title} author={this.state.author} />
-            </Col>
-            <Col xs={12} md={2}>
-              <Book img={this.state.img} title={this.state.title} author={this.state.author} />
-            </Col>
-            <Col xs={12} md={2}>
-              <Book img={this.state.img} title={this.state.title} author={this.state.author} />
-            </Col>
-            <Col xs={12} md={2}>
-              <Book img={this.state.img} title={this.state.title} author={this.state.author} />
-            </Col>
+           
           </Row>
         </Container>
       </>
