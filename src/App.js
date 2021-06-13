@@ -13,12 +13,6 @@ export default function App() {
 
   return (
     <>
-      <center>
-        {/* 
-        This section is about toggle bar with amazon book store rendered
-         {login === true ? returnBooks() : null}
-        <button onClick={() => { SetLogin(!login) }} className='btn-sm btn btn-success'>{login === false ? 'Show' : 'Hide'}</button> */}
-      </center>
       <section className="container card-body card">
         <div>
           <button onClick={() => { SetLogin(!login) }}>{login ===true ? 'Hide' : 'Show' }</button>
