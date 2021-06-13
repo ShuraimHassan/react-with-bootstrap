@@ -1,11 +1,14 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-const BookList = ({ img, title, author }) => {
+const BookList = (props) => {
+  const { img, title, author } = props;
 
-  return (
-    <div className='container'>
-      <Card style={{ width: '9rem' }}>
+
+  return (<>
+    <article>
+
+      <Card style={{ width: '12rem' }}>
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
@@ -14,7 +17,8 @@ const BookList = ({ img, title, author }) => {
           </Card.Text>
         </Card.Body>
       </Card>
-    </div>
+    </article>
+  </>
   );
 }
 
