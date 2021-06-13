@@ -1,24 +1,16 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from 'react'
-import BookStore from './Components/BookList'
-import { Books } from './Components/Books';
-export default function App() {
-  const [login, SetLogin] = useState(false); //set Login Values
+import React from 'react'
+// 1) Book Store Component with js seperete data file of an array of books
+// import PublishBookStore from './shared/PublishBookStore';
+import HandleNameComponent from './Components/HandleNameComponent';
 
-  let arrOfBooks = () => {
-    return Books.map(book => {
-      return <BookStore key={book.id} {...book} />
-    })
-  }
+
+export default function App() {
+
 
   return (
     <>
-      <section className="container card-body card">
-        <div>
-          <button onClick={() => { SetLogin(!login) }}>{login ===true ? 'Hide' : 'Show' }</button>
-          {login === true ? arrOfBooks() : null}
-        </div>
-      </section>
+    App.js
+      <HandleNameComponent />
 
     </>
   )
