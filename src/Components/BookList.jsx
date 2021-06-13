@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 
 const BookList = (props) => {
   const { img, title, author } = props;
-
+  
 
   return (<>
     <article>
@@ -12,7 +12,7 @@ const BookList = (props) => {
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Text>
+          <Card.Text >
             Author- {author}
           </Card.Text>
         </Card.Body>

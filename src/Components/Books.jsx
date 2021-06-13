@@ -1,4 +1,4 @@
-export const bookList = [
+export const Books = [
   {
     id: 1,
     img: 'https://images-na.ssl-images-amazon.com/images/I/51b-JoV-1xS._SY291_BO1,204,203,200_QL40_FMwebp_.jpg',
