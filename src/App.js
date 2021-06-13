@@ -7,7 +7,7 @@ export default function App() {
 
   let arrOfBooks = () => {
     return Books.map(book => {
-     return <BookStore key={book.id} {...book} />
+      return <BookStore key={book.id} {...book} />
     })
   }
 
@@ -21,7 +21,8 @@ export default function App() {
       </center>
       <section className="container card-body card">
         <div>
-            {arrOfBooks()}
+          <button onClick={() => { SetLogin(!login) }}>{login ===true ? 'Hide' : 'Show' }</button>
+          {login === true ? arrOfBooks() : null}
         </div>
       </section>
 
