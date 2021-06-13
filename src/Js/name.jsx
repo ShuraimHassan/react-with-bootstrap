@@ -1,8 +1,8 @@
 export const Profile = [
   {
     id: 1,
-    name: `Shumail`,
-    age: 25,
+    name: `Jon Doe`,
+    age: 30,
     proffesion: `Web Developer`,
     hobbies: {
       sports: `cricket`,
@@ -13,11 +13,11 @@ export const Profile = [
   },
   {
     id: 2,
-    name: `Nadir`,
+    name: `Miss Colleen Van Lent`,
     age: 28,
-    proffesion: `Civil Engineer`,
+    proffesion: `Software Engineer`,
     hobbies: {
-      sports: `cricket`,
+      sports: `Volley Ball`,
       favBatsmen: `Ab Develiers`,
       favQuotes: `The best way to predict the future is to invent it.`
     },
